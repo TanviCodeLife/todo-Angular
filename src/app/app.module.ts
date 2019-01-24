@@ -1,13 +1,15 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
-import { NgLoopDirective } from './ng-loop.directive';
 import { FormsModule } from '@angular/forms';
+import { TaskListComponent } from './task-list/task-list.component';
+import { EditTaskComponent } from './edit-task/edit-task.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NgLoopDirective
+    TaskListComponent,
+    EditTaskComponent
   ],
   imports: [
     BrowserModule,
